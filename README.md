@@ -1,47 +1,33 @@
-# Cleaner-Folders
-# 📂 Cleaner Folder v1.0.0
+# Cleaner Folder
 
-![Python](https://shields.io)
-![License](https://shields.io)
+**Cleaner Folder** is a lightweight automation tool that keeps your Downloads folder organized in real-time. No more mess — every file finds its place automatically.
 
-**Cleaner Folder** is a professional, lightweight automation tool that keeps your Downloads folder organized in real-time. No more mess — every file finds its place automatically.
+## Key Features
 
-## ✨ Key Features
+- **Real-time Monitoring**: Automatically detects and sorts new files every second.
+- **Smart Categorization**: Supports 100+ file extensions including Code, Images, 3D Models, and Game Mods.
+- **Installer**: Custom setup wizard with EN/RU support and Theme selection.
+- **Auto-Updates**: Checks for new versions directly from GitHub.
+- **Background Mode**: Runs quietly in the system tray.
+- **Autostart**: Option to launch automatically when Windows starts.
 
-- 🚀 **Real-time Monitoring**: Automatically detects and sorts new files every second.
-- 📁 **Smart Categorization**: Supports over 100+ file extensions (Code, Images, 3D Models, Game Mods, etc.).
-- 🛠️ **Professional Installer**: Custom setup wizard with language selection (EN/RU), theme support (Dark/Light), and MIT License.
-- 🔄 **Auto-Updates**: Checks for new versions directly from GitHub and notifies you instantly.
-- 🕵️ **Background Mode**: Runs quietly in the system tray without distracting you.
-- ⚙️ **Autostart**: Option to launch automatically when Windows starts.
+## How it works
 
-## 🛠️ Installation
+The program monitors your Downloads folder and moves files to the "Sorted apps by Cleaner Folders" directory on your Desktop based on their type:
 
-1. Go to the [Releases]([link-to-your-github-releases]) page.
-2. Download the `Installer.exe`.
-3. Run the installer and follow the instructions.
-4. Enjoy your clean workspace!
+*   **Code Files**: Scripts, data, and web files.
+*   **Images**: Photos, design projects, and icons.
+*   **3D Models**: 3D objects and project files.
+*   **Performing Files**: Executables and system scripts.
+*   **Archives**: Compressed files and disk images.
+*   **Documents**: Text files, tables, and presentations.
 
-## 📂 Supported Categories
+## Technical Stack
 
-Your files will be sorted into these beautiful folders on your Desktop:
-*   **Code Files**: `.py, .js, .cpp, .html, .css...`
-*   **Images**: `.jpg, .png, .psd, .ai...`
-*   **3D Models**: `.obj, .blend, .stl, .fbx...`
-*   **Performing Files**: `.exe, .msi, .bat...`
-*   **Archives**: `.zip, .rar, .iso...`
-*   **And many more!**
-
-## 💻 Technical Stack
-
-- **Language:** Python 3.12
+- **Language:** Python
 - **GUI:** CustomTkinter & Tkinter
 - **System:** Pystray (Tray), Plyer (Notifications)
-- **Packaging:** PyInstaller
 
-## 📜 License
+## License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-Developed with 🔥 by [Your-Nickname-Here]
+This project is licensed under the MIT License.
